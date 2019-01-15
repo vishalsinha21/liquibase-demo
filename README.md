@@ -10,6 +10,6 @@ The project is to showcase the basic working of liquibase.
 
     To execute changesets (which havent run already)
 
-- mvn liquibase:rollback -Dliquibase.rollbackCount=<n>
+- mvn liquibase:rollback -Dliquibase.rollbackCount=n
 
     To rollback n changesets
